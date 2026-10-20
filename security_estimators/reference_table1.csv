@@ -1,0 +1,13 @@
+goal,attack,paper_log2_cost,measure
+Collision,Regular collision decoding,151.05,repetition
+Collision,Regular-ISD,142.28,work
+Collision,Linearization with nonzero anchor,151.12,repetition
+Collision,Linearization + Wagner,154.31,work
+Collision,Pure Wagner,309.49,work
+Preimage,Regular-Prange,565.74,repetition
+Preimage,Regular-ISD Enum,462.3,work
+Preimage,Representation attack,492.02,work
+Preimage,Rep-MO free-NN benchmark,476.76,benchmark
+Preimage,Algebraic RSD,897.52,model
+Preimage,AGB 2.0,904.72,benchmark
+Preimage,Hybrid RSD,885.65,benchmark

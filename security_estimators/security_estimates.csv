@@ -1,0 +1,13 @@
+goal,attack,measure,paper_log2_cost,recomputed_log2_cost,difference_bits,status,optimization
+Collision,Regular collision decoding,repetition,151.05,151.046760382,-0.003239618,recomputed,m0=192
+Collision,Regular-ISD,work,142.28,142.276520634,-0.003479366,recomputed,"m0=192, lambda=61, x=11"
+Collision,Linearization with nonzero anchor,repetition,151.12,151.116854276,-0.003145724,recomputed,h=191
+Collision,Linearization + Wagner,work,154.31,154.312865271,+0.002865271,recomputed,"h=190, rho=527, nu=1"
+Collision,Pure Wagner,work,309.49,309.494508525,+0.004508525,recomputed,nu=3
+Preimage,Regular-Prange,repetition,565.74,565.743433997,+0.003433997,recomputed,"f=2, b=144"
+Preimage,Regular-ISD Enum,work,462.3,462.297697574,-0.002302426,recomputed,"lambda=194, u=112, R_U=0"
+Preimage,Representation attack,work,492.02,492.021013157,+0.001013157,fixed-profile rerun only,"fixed profile: lambda=297, u=122, R_U=0, tau_slack=8; full scan not rerun"
+Preimage,Rep-MO free-NN benchmark,benchmark,476.76,,,independent estimator not included,
+Preimage,Algebraic RSD,model,897.52,897.521809977,+0.001809977,recomputed,"g=61, D=3"
+Preimage,AGB 2.0,benchmark,904.72,904.721482231,+0.001482231,recomputed,"f=192, mu=61"
+Preimage,Hybrid RSD,benchmark,885.65,885.654055274,+0.004055274,recomputed,"u=61, q=0, f=18"
