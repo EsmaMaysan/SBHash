@@ -85,13 +85,6 @@ Extremely small theoretical probabilities can underflow in binary floating-point
 * Explicit tests for zero/proportional columns and acceptance of a globally full-rank matrix whose first square minor is singular.
 * Exact agreement of all 214 smoke-run observations with the corresponding observations in the four-worker full run.
 * Integrity checks of all counts, trial indices, histograms and source checksums; verification that the Python source has no comments.
-
-## Provenance
-
-* Public matrix SHA-256: `808bf91f34fdeba491c3c05f7267344ef96a3410bb92f2162af101eaf52a83c9`.
-* SHA-256 layout: uint8 entries in block-column-coordinate order, shape `(192, 64, 528)`.
-* Experiment seed: `20261021`. The script records independent PCG64 selection/reference streams for every case and trial.
-* Source notebook SHA-256: `6d688d997c67f0abca83fd4feb85d1778292d664870771f6347ffbdb7495c9ab`.
 * Source manuscript SHA-256: `784a164d7f040fc83f71295ee8b8ee0f80612bd1cb446d299df0f73aa4e72823`.
 * Packaged script SHA-256: `86a0c951cd51827cdcbb767e948e8aa3c5c61f105a689e98a03e378fa46ff88f`.
 * Measurement script SHA-256 before the name change: `a8fe5317fc77faf97e76e887226bb9e56dfc07470e078e05e0ad521856e60918`.
