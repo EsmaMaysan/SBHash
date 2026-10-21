@@ -1,0 +1,146 @@
+SBHash LOCAL RANK EXPERIMENTS
+{"ell": 64, "m": 192, "n": 12288, "p": 5, "q": 16, "r": 528, "s": 176}
+Matrix SHA-256: 808bf91f34fdeba491c3c05f7267344ef96a3410bb92f2162af101eaf52a83c9
+Global rank: 528
+Zero columns: 0
+Projective repetitions: 0
+Ranks are exact over F_5. References have independent uniform F_5 entries.
+Deficient means rank below min(rows, columns).
+Fisher compares deficiency frequencies with the simulated reference.
+The binomial test compares deficiency frequency with the exact random-matrix law.
+Holm adjustment is applied separately to each family of tests across all cases.
+The full rank histograms are descriptive; these p-values test deficiency frequency.
+The individual-block case is a census; its p-values are descriptive null diagnostics.
+Sampled subsets can overlap. This is one fixed public matrix, not independent public seeds.
+No conclusion about all subsets, adversarial search, or attack costs follows from these tests.
+
+columns_64: 528 x 64, n=200
+  H ranks: {"64": 200}
+  Reference ranks: {"64": 200}
+  Deficient H/reference: 0/0
+  Null deficiency probability: 0
+  Fisher raw/Holm p: 1/1
+  Binomial raw/Holm p: 1/1
+
+columns_192: 528 x 192, n=200
+  H ranks: {"192": 200}
+  Reference ranks: {"192": 200}
+  Deficient H/reference: 0/0
+  Null deficiency probability: 3.49960115965e-236
+  Fisher raw/Holm p: 1/1
+  Binomial raw/Holm p: 1/1
+
+columns_384: 528 x 384, n=200
+  H ranks: {"384": 200}
+  Reference ranks: {"384": 200}
+  Deficient H/reference: 0/0
+  Null deficiency probability: 5.57518629963e-102
+  Fisher raw/Holm p: 1/1
+  Binomial raw/Holm p: 1/1
+
+columns_527: 528 x 527, n=1000
+  H ranks: {"526": 35, "527": 965}
+  Reference ranks: {"526": 56, "527": 944}
+  Deficient H/reference: 35/56
+  Null deficiency probability: 0.049584005161
+  Fisher raw/Holm p: 0.031357342/0.50171747
+  Binomial raw/Holm p: 0.034229066/0.54766505
+
+columns_528: 528 x 528, n=1000
+  H ranks: {"526": 3, "527": 235, "528": 762}
+  Reference ranks: {"526": 3, "527": 227, "528": 770}
+  Deficient H/reference: 238/230
+  Null deficiency probability: 0.239667204129
+  Fisher raw/Holm p: 0.71162457/1
+  Binomial raw/Holm p: 0.94094668/1
+
+columns_529: 528 x 529, n=1000
+  H ranks: {"527": 57, "528": 943}
+  Reference ranks: {"527": 49, "528": 951}
+  Deficient H/reference: 57/49
+  Null deficiency probability: 0.049584005161
+  Fisher raw/Holm p: 0.48492248/1
+  Binomial raw/Holm p: 0.27426086/1
+
+full_blocks_1: 528 x 64, n=192
+  H ranks: {"64": 192}
+  Reference ranks: {"64": 192}
+  Deficient H/reference: 0/0
+  Null deficiency probability: 0
+  Fisher raw/Holm p: 1/1
+  Binomial raw/Holm p: 1/1
+
+full_blocks_2: 528 x 128, n=200
+  H ranks: {"128": 200}
+  Reference ranks: {"128": 200}
+  Deficient H/reference: 0/0
+  Null deficiency probability: 6.45562469522e-281
+  Fisher raw/Holm p: 1/1
+  Binomial raw/Holm p: 1/1
+
+full_blocks_4: 528 x 256, n=200
+  H ranks: {"256": 200}
+  Reference ranks: {"256": 200}
+  Deficient H/reference: 0/0
+  Null deficiency probability: 1.89713759006e-191
+  Fisher raw/Holm p: 1/1
+  Binomial raw/Holm p: 1/1
+
+full_blocks_8: 528 x 512, n=200
+  H ranks: {"512": 200}
+  Reference ranks: {"512": 200}
+  Deficient H/reference: 0/0
+  Null deficiency probability: 1.6384e-12
+  Fisher raw/Holm p: 1/1
+  Binomial raw/Holm p: 1/1
+
+full_blocks_9: 528 x 576, n=200
+  H ranks: {"528": 200}
+  Reference ranks: {"528": 200}
+  Deficient H/reference: 0/0
+  Null deficiency probability: 7.03687441777e-35
+  Fisher raw/Holm p: 1/1
+  Binomial raw/Holm p: 1/1
+
+square_blocks_1: 64 x 64, n=1000
+  H ranks: {"62": 5, "63": 235, "64": 760}
+  Reference ranks: {"62": 1, "63": 260, "64": 739}
+  Deficient H/reference: 240/261
+  Null deficiency probability: 0.239667204129
+  Fisher raw/Holm p: 0.30201847/1
+  Binomial raw/Holm p: 0.9704658/1
+
+square_blocks_2: 128 x 128, n=1000
+  H ranks: {"126": 4, "127": 238, "128": 758}
+  Reference ranks: {"126": 1, "127": 226, "128": 773}
+  Deficient H/reference: 242/227
+  Null deficiency probability: 0.239667204129
+  Fisher raw/Holm p: 0.46000697/1
+  Binomial raw/Holm p: 0.85313501/1
+
+square_blocks_4: 256 x 256, n=1000
+  H ranks: {"254": 2, "255": 227, "256": 771}
+  Reference ranks: {"254": 4, "255": 236, "256": 760}
+  Deficient H/reference: 229/240
+  Null deficiency probability: 0.239667204129
+  Fisher raw/Holm p: 0.59769061/1
+  Binomial raw/Holm p: 0.45878084/1
+
+square_blocks_8: 512 x 512, n=1000
+  H ranks: {"510": 3, "511": 249, "512": 748}
+  Reference ranks: {"510": 2, "511": 229, "512": 769}
+  Deficient H/reference: 252/231
+  Null deficiency probability: 0.239667204129
+  Fisher raw/Holm p: 0.2960605/1
+  Binomial raw/Holm p: 0.35469705/1
+
+two_columns_per_block: 528 x 384, n=200
+  H ranks: {"384": 200}
+  Reference ranks: {"384": 200}
+  Deficient H/reference: 0/0
+  Null deficiency probability: 5.57518629963e-102
+  Fisher raw/Holm p: 1/1
+  Binomial raw/Holm p: 1/1
+
+Cases flagged at family-wise alpha=0.05 against reference: []
+Cases flagged at family-wise alpha=0.05 against theory: []
