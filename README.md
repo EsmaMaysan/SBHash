@@ -8,7 +8,7 @@ The EasyCrypt development proves that a whole-hash collision implies a collision
 
 * `SBHash.ec` — EasyCrypt specification and proof source.
 * `README.md` — Overview, proof scope, and reproducibility checklist (this file).
-* `INSTALLATION\_WSL\_EN.md` — Step-by-step WSL/Ubuntu installation and compilation guide.
+* `INSTALLATION_WSL.md` — Step-by-step WSL/Ubuntu installation and compilation guide.
 
 ## Model and parameters
 
