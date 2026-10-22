@@ -4,7 +4,7 @@ We reproduce the supplied matrix and measurements.
 
 We implemented exact modular rank in `rank\_mod\_p\_square` and uses it in `\_candidate\_has\_full\_rank\_minor` to accept matrices whose first `r` columns are independent. 
 
-The parameters are `(p, ell, r, m) = (5, 64, 384, 256), with `n=12288`, `s=176`, and `q=16`. The notebook rejects duplicate columns. The new generator checks the full row rank condition and projective uniqueness. If the first square minor is singular, it examines further columns rather than rejecting an otherwise acceptable matrix.
+The parameters are `(p, ell, r, m) = (5, 64, 528, 192)`, with `n=12288`, `s=176`, and `q=16`. The notebook rejects duplicate columns. The new generator checks the full row rank condition and projective uniqueness. If the first square minor is singular, it examines further columns rather than rejecting an otherwise acceptable matrix.
 
 The notebook's SHAKE-256 column derivation, index encoding, rejection of byte 255, are preserved byte for byte. With the final dimensions, candidate 0 is accepted and its first square minor is already invertible.
 
